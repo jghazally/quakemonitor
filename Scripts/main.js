@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	var url ="http://sites/playground/quakemonitor/quakemonitor.php?ajax=1",
+	var url ="?ajax=1",
 		recentQuake = '0',
 		strongestQuake = '0',
 		totalSeconds = 0,
