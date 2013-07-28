@@ -1,0 +1,77 @@
+
+body {
+	background-color: #ededed;
+}
+#map {
+	border: 10px solid #fff;
+	border-radius: 5px;
+	height: 400px;
+	width: 100%;
+	margin-top: 30px;
+}
+.overlay{
+	display:block;
+	text-align:center;
+	color:#fff;
+	font-size:12px;
+	width:
+	opacity:0.8;
+	background:#4477aa;
+	border:solid 3px #336699;
+	box-shadow:2px 2px 10px #333;
+	text-shadow:1px 1px 1px #666;
+	padding:0 4px;
+}
+
+.overlay_arrow{
+	left:50%;
+	margin-left:-16px;
+	width:0;
+	height:0;
+	position:absolute;
+}
+.overlay_arrow.above{
+	bottom:-15px;
+	border-left:16px solid transparent;
+	border-right:16px solid transparent;
+	border-top:16px solid #336699;
+}
+.overlay_arrow.below{
+	top:-15px;
+	border-left:16px solid transparent;
+	border-right:16px solid transparent;
+	border-bottom:16px solid #336699;
+}
+.recent_quake{
+	text-align: center;
+	background-color:#33ff33;
+	color:#fff;
+	text-shadow:1px 1px 1px #666;
+}
+
+.latest{
+	background:#33ff33;
+	border:solid 3px #00ff00;
+}
+
+.strongest_quake{
+	text-align: center;
+	background-color:#ff3333;
+	color:#fff;
+	text-shadow:1px 1px 1px #666;
+}
+.time_since {
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+.time_since span{
+	font-weight: bold;
+}
+.strongest{
+	background:#ff3333;
+	border:solid 3px #ff0000;
+}
+
+.page-header{
+	margin-bottom:0;
+}
