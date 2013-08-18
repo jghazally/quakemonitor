@@ -20,9 +20,8 @@ if more quakes have happened.
 
 
 #Requirements
-PHP, if anyone wants to help write this as a jekyll plugin in
-ruby please submit a branch.
-Google Maps v3 API
+* PHP, if anyone wants to help write this as a jekyll plugin in ruby please submit a branch.
+* Google Maps v3 API
 
 #Usage
 Clone the repo to your server
@@ -43,5 +42,6 @@ define('GOOGLEMAPS_API', 'xxxxxxxxxxxxxxxxx');
 
 #jQuery Libraries used
 This page uses
+
 1. gmaps.js: http://hpneo.github.io/gmaps/
 1. twinkle.jsL http://larsjung.de/twinkle/
